@@ -1,3 +1,4 @@
+" https://qiita.com/morikooooo/items/9fd41bcd8d1ce9170301
 " setting
 "文字コードをUFT-8に設定
 set fenc=utf-8
@@ -17,9 +18,9 @@ set showcmd
 " 行番号を表示
 set number
 " 現在の行を強調表示
-set cursorline
+" set cursorline
 " 現在の行を強調表示（縦）
-set cursorcolumn
+" set cursorcolumn
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
 " インデントはスマートインデント
@@ -63,3 +64,11 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+" 追加
+" 新しい行を開始したときに、インデントを現在行と同レベルにする
+" set autoindent
+" カーソルラインの表示
+set cursorline
+" ステータスラインの表示
+set laststatus=2
