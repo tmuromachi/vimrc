@@ -30,7 +30,7 @@ set laststatus=2
 " コマンドライン補完
 set wildmenu
 
- " atomカラースキーマ
- 34 " https://blog.icchi.me/test-atom-dark-theme-with-vim
- 35 set t_Co=256
- 36 colorscheme atom-dark-256
+" atomカラースキーマ
+" https://blog.icchi.me/test-atom-dark-theme-with-vim
+set t_Co=256
+colorscheme atom-dark-256
