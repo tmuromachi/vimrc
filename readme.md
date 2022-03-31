@@ -1,0 +1,3 @@
+# .vimrc
+
+`$ source run.sh`
